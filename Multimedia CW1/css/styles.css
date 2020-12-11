@@ -1,0 +1,82 @@
+/* Css styling consists of selectors and declarations. Selectors being the element
+   and declarations being made up of properties and values divided by colons.
+   For example underneath we have the body which is the element then a property which
+   is in this case background colour and then its value.*/
+body {
+  background-color: DarkGreen
+}
+
+/* The css style page is linked to both html pages. The selector in css represents
+the element in html.*/
+img {
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%
+}
+
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+audio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Selectors that involve a form of media like image, video or audio will have very similar Css
+   styling properties. The display property tells the browser to display the element in a block element in this case.*/
+/* Margin-left and right tell the browser where to position the media in this case it is auto */
+
+h1 {
+  background-color: red;
+  border: 3px black solid;
+  padding: 5px;
+  margin: 5px
+}
+
+h2 {
+  background-color: red;
+  border: 3px black solid;
+  padding: 5px;
+  margin: 5px
+}
+
+/* Padding creates space within the element, not to be confused with margin that
+   creates space around the element. Px stands for pixels */
+
+
+p {
+  background-color: red;
+  border: 1px black solid;
+  padding: 10px;
+  margin: 5px;
+  }
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+aside {width:40%;
+      padding-left: 10px;
+      margin-left: 10px;
+      float: left;
+
+    }
+
+.label {
+  font-weight: bold;
+  }
+
+  .col {
+    width: 50%;
+    float: left;
+  }
+  /* The column element does what it sounds like. This element was useful in the cast page
+     to seperate the images and paragraphs into two columns to achieve the desired layout.*/
